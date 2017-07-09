@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Map from './map';
-import ShopsList from './shops_list';
+import MapWrapper from '../containers/map_wrapper';
+import ShopsList from '../containers/shops_list';
 
 export default class App extends Component {
   render() {
     return (
       <div>
-        <Map />
+        <MapWrapper />
         <ShopsList />
       </div>
     );
