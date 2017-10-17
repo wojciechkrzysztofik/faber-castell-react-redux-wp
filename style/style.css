@@ -1,3 +1,57 @@
+.app {
+    background: #0c3312;
+    color: #fff;
+    font-family: Arial;
+    padding: 60px;
+    width: 810px;
+    height: 800px;
+}
+
+.home {
+    overflow: hidden;
+}
+
+.container {
+    width: 100% !important;
+    max-width: none !important;
+    padding: 0 !important;
+}
+
+.btn-category {
+    width: 300px;
+    min-height: 30px;
+    background: rgba(220, 220, 220, 0.8);
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #000;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: all .2s;
+}
+
+.btn-category:hover,
+.btn-category:focus {
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+}
+
+.btn-category:first-child {
+    float: left;
+}
+
+.btn-category:last-child {
+    float: right;
+}
+
+.home-link {
+    width: 340px;
+    margin: 0 auto 50px;
+    display: block;
+}
+
 ul,
 li {
     margin: 0;
@@ -5,20 +59,91 @@ li {
 }
 
 .btn-shop {
+    color: #000;
     display: block;
+    padding: 10px 20px;
+    background: #f5f5f5;
+    margin-bottom: 5px;
+    margin-left: 5px;
     width: 100%;
-    border: none;
-    background: transparent;
-    margin: 10px 0;
-    padding: 5px 10px;
-    text-align: left;
 }
 
 .btn-shop:hover {
-    background: #f5f5f5;
+    background: #f0f0f0;
 }
 
 .google-map {
-    width: 1024px;
-    height: 400px;
+    width: 345px;
+    height: 345px;
+}
+.shops__content {
+    overflow: hidden;
+    margin-top: 2px;
+    width: 100%;
+    background: rgba(220, 220, 220, 0.8);
+    padding: 10px;
+    border: 1px solid #000;
+}
+.shops__content-map {
+    float: left;
+    width: 50%;
+}
+
+.shops__content-list {
+    float: right;
+    width: 50%;
+    background: #fff;
+    padding: 5px 10px;
+    height: 345px;
+    overflow: scroll;
+}
+
+
+
+.logo-placeholder {
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-shop__name {
+    font-weight: bold;
+    display: block;
+}
+
+.btn-shop__address {
+    font-size: 12px;
+    display: block;
+}
+.btn-shop__gold {
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.shops-online {
+    padding: 2px;
+}
+
+.btn-shop-online {
+    display: inline-block;
+    margin: 8px 8px 0 8px;
+}
+
+.btn-shop__competences {
+    font-size: 12px;
+    display: block;
+}
+
+.shops__content-list button {
+    text-align: left;
+}
+
+button {
+    background: transparent;
+    border: none;
+}
+
+button:hover,
+button:focus {
+    outline: none !important;
 }

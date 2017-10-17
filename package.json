@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "App displays list of shops using google maps.",
   "main": "index.js",
-  "repository": "git@github.com:wojciechkrzysztofik/shopsMap.git",
+  "repository": "git@github.com:wojciechkrzysztofik/faber-castell-react-redux-wp.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
   },
@@ -20,10 +20,15 @@
   "dependencies": {
     "axios": "^0.16.2",
     "babel-preset-stage-1": "^6.1.18",
+    "history": "^4.7.2",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
     "react-redux": "4.3.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.6",
     "redux": "^3.0.4",
-    "redux-promise": "^0.5.3"
+    "redux-promise": "^0.5.3",
+    "styled-components": "^2.2.1"
   }
 }
